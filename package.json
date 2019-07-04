@@ -33,7 +33,8 @@
     "pug": "^2.0.0-beta3",
     "redis": "~2.6.0-2",
     "stylus": "~0.54.5",
-    "yargs": "^4.0.0"
+    "yargs": "^4.0.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "async": "^1.4.2",
@@ -49,9 +50,12 @@
     "kue-dashboard": "bin/kue-dashboard"
   },
   "scripts": {
-    "test": "make test-all"
+    "test": "make test-all",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "optionalDependencies": {
     "reds": "^0.2.5"
-  }
+  },
+  "snyk": true
 }
