@@ -34,7 +34,7 @@
     "redis": "~2.6.0-2",
     "stylus": "~0.54.5",
     "yargs": "^4.0.0",
-    "snyk": "^1.189.0"
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "async": "^1.4.2",
