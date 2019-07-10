@@ -12,3 +12,7 @@ patch:
         patched: '2019-07-04T04:52:40.427Z'
     - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
         patched: '2019-07-04T04:52:40.427Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T07:25:17.396Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T07:25:17.396Z'
